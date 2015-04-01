@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.tabled", :name "to-w", :file "clojure/core/logic/tabled.clj", :type :fn, :src "(defn to-w [s]\n  (into [] s))", :column 1, :line 30, :arglists ([s])}

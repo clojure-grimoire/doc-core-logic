@@ -1,0 +1,1 @@
+{:type :fn, :src "(defrecord SubstValue [v doms eset]\n  Object\n  (toString [_]\n    (str v)))", :ns "clojure.core.logic", :name "map->SubstValue", :file "clojure/core/logic.clj", :column 1, :line 197, :arglists ([m__6206__auto__]), :doc "Factory function for class clojure.core.logic.SubstValue, taking a map of keywords to field values."}

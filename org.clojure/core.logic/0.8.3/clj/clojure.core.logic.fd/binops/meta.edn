@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "binops", :file "clojure/core/logic/fd.clj", :type :var, :src "(def binops (set (keys binops->fd)))", :column 1, :line 1138}

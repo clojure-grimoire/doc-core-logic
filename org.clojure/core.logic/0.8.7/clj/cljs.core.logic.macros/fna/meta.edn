@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "fna", :file "cljs/core/logic/macros.clj", :type :macro, :src "(defmacro fna\n  \"Define an anonymous soft cut goal. See conda.\"\n  [& rest]\n  `(fnm conda ~@rest))", :column 1, :line 413, :macro true, :arglists ([& rest]), :doc "Define an anonymous soft cut goal. See conda."}

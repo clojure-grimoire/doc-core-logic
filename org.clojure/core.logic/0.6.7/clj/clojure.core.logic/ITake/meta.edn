@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ITake\n  (take* [a]))", :doc nil, :ns "clojure.core.logic", :name "ITake", :file "clojure/core/logic.clj", :column 1, :line 52}

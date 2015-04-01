@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "firsto", :file "clojure/core/logic.clj", :type :fn, :src "(defn firsto\n  \"A relation where l is a collection, such that a is the first of l\"\n  [l a]\n  (fresh [d]\n    (conso a d l)))", :column 1, :line 1367, :arglists ([l a]), :doc "A relation where l is a collection, such that a is the first of l"}

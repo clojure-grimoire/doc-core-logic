@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "reify-term", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(declare reify-term)", :column 1, :line 113, :declared true}

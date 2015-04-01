@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "emptyo", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn emptyo [a]\n  \"Goal that unifies its argument with the empty list.\"\n  (== '() a))", :column 1, :line 16, :arglists ([a])}

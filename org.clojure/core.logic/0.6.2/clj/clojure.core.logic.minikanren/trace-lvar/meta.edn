@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "trace-lvar", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn trace-lvar [a lvar]\n  `(println (format \"%5s = %s\" (str '~lvar) (reify ~a ~lvar))))", :column 1, :line 969, :arglists ([a lvar])}

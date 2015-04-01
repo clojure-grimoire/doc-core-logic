@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "assoc-meta", :file "clojure/core/logic.clj", :type :fn, :src "(defn assoc-meta [x k v]\n  (with-meta x (assoc (meta x) k v)))", :column 1, :line 24, :arglists ([x k v])}

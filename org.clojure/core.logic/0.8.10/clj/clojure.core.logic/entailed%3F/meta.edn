@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "entailed?", :file "clojure/core/logic.clj", :type :fn, :src "(defn entailed? [c c' a]\n  (let [id (id c)]\n    (and (or ((-> a :cs :cm) id)\n             (nil? id))\n         (-entailed? c'))))", :column 1, :line 2064, :arglists ([c c' a])}

@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ILVar\n  (constraints [this])\n  (add-constraint [this c])\n  (add-constraints [this ds])\n  (remove-constraint [this c])\n  (remove-constraints [this]))", :doc nil, :ns "clojure.core.logic", :name "ILVar", :file "clojure/core/logic.clj", :column 1, :line 58}

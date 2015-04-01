@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IAnswerCache\n  (-add [this x])\n  (-cached? [this x]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IAnswerCache", :file "clojure/core/logic/protocols.clj", :column 1, :line 105}

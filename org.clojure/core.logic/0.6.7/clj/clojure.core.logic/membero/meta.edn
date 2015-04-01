@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "membero", :file "clojure/core/logic.clj", :type :fn, :src "(defne membero \n  \"A relation where l is a collection, such that l contains x\"\n  [x l]\n  ([_ [x . tail]])\n  ([_ [head . tail]]\n     (membero x tail)))", :column 1, :line 1416, :arglists ([x l]), :doc "A relation where l is a collection, such that l contains x"}

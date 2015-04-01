@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "-reify*", :file "clojure/core/logic.clj", :type :fn, :src "(defn -reify* [s v]\n  (let [v (walk s v)]\n    (reify-term v s)))", :column 1, :line 246, :arglists ([s v])}

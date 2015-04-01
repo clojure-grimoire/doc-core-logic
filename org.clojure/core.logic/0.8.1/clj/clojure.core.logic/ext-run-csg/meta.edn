@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "ext-run-csg", :file "clojure/core/logic.clj", :type :fn, :src "(defn ext-run-csg [u v]\n  (fn [a]\n    (ext-run-cs a u v)))", :column 1, :line 1120, :arglists ([u v])}

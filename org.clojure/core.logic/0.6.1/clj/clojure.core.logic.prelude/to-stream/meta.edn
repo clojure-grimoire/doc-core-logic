@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "to-stream", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn to-stream [aseq]\n  (when (seq aseq)\n    (choice (first aseq)\n            (fn [] (to-stream (next aseq))))))", :column 1, :line 66, :arglists ([aseq])}

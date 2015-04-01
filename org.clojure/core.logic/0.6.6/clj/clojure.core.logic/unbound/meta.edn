@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "unbound", :file "clojure/core/logic.clj", :type :var, :src "(def ^Unbound unbound (Unbound.))", :column 1, :line 56, :tag clojure.core.logic.Unbound}

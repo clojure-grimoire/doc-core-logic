@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "get-dom", :file "clojure/core/logic.clj", :type :fn, :src "(defn get-dom [s x dom]\n  (let [v (root-val s x)]\n    (if (subst-val? v)\n      (-> v :doms dom))))", :column 1, :line 494, :arglists ([s x dom])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "lvar-binds", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn lvar-binds [syms]\n  (mapcat lvar-bind syms))", :column 1, :line 932, :arglists ([syms])}

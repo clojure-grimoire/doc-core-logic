@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "rem-?", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn rem-? [s]\n  (symbol (apply str (drop 1 (str s)))))", :column 1, :line 9, :arglists ([s])}

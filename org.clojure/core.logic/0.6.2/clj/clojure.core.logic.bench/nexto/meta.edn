@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "nexto", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn nexto [x y l]\n  (conde\n    ((righto x y l))\n    ((righto y x l))))", :column 1, :line 96, :arglists ([x y l])}

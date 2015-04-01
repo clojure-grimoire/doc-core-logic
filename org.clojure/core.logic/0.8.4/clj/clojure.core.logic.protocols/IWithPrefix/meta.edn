@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IWithPrefix\n  (-with-prefix [c p]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IWithPrefix", :file "clojure/core/logic/protocols.clj", :column 1, :line 215}

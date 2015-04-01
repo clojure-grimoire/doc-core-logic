@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "umi", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro umi\n  [& args]\n  (if (resolve 'unchecked-multiply-int)\n    `(unchecked-multiply-int ~@args)\n    `(unchecked-multiply ~@args)))", :column 1, :line 707, :macro true, :arglists ([& args])}

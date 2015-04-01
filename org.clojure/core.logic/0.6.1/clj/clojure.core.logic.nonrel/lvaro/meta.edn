@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nonrel", :name "lvaro", :file "clojure/core/logic/nonrel.clj", :type :macro, :src "(defmacro lvaro [v]\n  `(fn [a#]\n     (if (lvar? (walk a# ~v))\n       a# nil)))", :column 1, :line 132, :macro true, :arglists ([v])}

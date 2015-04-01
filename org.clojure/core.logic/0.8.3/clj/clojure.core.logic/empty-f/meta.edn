@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "empty-f", :file "clojure/core/logic.clj", :type :fn, :src "(def empty-f (fn []))", :column 1, :line 519}

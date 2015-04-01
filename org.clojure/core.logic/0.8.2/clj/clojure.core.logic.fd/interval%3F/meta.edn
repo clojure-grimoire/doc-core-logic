@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "interval?", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn interval? [x]\n  (instance? IntervalFD x))", :column 1, :line 370, :arglists ([x])}

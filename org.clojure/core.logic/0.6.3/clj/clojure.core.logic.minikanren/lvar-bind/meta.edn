@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "lvar-bind", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn lvar-bind [sym]\n  ((juxt identity\n         (fn [s] `(lvar '~s))) sym))", :column 1, :line 928, :arglists ([sym])}

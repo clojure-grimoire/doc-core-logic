@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.match", :name "extract-vars", :file "clojure/core/logic/match.clj", :type :fn, :src "(defn extract-vars\n  ([p]\n     (set (cond\n           (lvar-sym? p) [p]\n           (coll? p) (filter lvar-sym? (flatten p))\n           :else nil)))\n  ([p seen]\n     (set/difference (extract-vars p) (set seen))))", :column 1, :line 31, :arglists ([p] [p seen])}

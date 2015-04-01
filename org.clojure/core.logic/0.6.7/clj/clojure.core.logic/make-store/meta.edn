@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "make-store", :file "clojure/core/logic.clj", :type :fn, :src "(defn ^ConstraintStore make-store []\n  (ConstraintStore. {} {} nil))", :column 1, :line 2006, :tag clojure.core.logic.ConstraintStore, :arglists ([])}

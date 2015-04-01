@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "*occurs-check*", :file "clojure/core/logic.clj", :type :var, :src "(def ^{:dynamic true} *occurs-check* true)", :column 1, :dynamic true, :line 7}

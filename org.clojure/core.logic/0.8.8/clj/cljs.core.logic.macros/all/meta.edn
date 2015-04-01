@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "all", :file "cljs/core/logic/macros.clj", :type :macro, :src "(defmacro all\n  \"Like fresh but does does not create logic variables.\"\n  ([] `cljs.core.logic/s#)\n  ([& goals] `(fn [a#] (bind* a# ~@goals))))", :column 1, :line 117, :macro true, :arglists ([] [& goals]), :doc "Like fresh but does does not create logic variables."}

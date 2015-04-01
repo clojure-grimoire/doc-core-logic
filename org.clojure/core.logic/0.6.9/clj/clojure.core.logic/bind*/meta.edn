@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "bind*", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro bind*\n  ([a g] `(bind ~a ~g))\n  ([a g & g-rest]\n     `(bind* (bind ~a ~g) ~@g-rest)))", :column 1, :line 751, :macro true, :arglists ([a g] [a g & g-rest])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "walk-term", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(declare walk-term)", :column 1, :line 114, :declared true}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "conso", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn conso [a d l]\n  (== (lcons a d) l))", :column 1, :line 18, :arglists ([a d l])}

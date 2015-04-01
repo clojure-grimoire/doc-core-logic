@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "==", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro == [u v]\n  \"A goal that attempts to unify terms u and v.\"\n  `(fn [a#]\n     (if-let [b# (unify a# ~u ~v)]\n       b# nil)))", :column 1, :line 906, :macro true, :arglists ([u v])}

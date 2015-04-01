@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IRel\n  (setfn [this arity f])\n  (indexes-for [this arity])\n  (add-indexes [this arity index]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IRel", :file "clojure/core/logic/protocols.clj", :column 1, :line 88}

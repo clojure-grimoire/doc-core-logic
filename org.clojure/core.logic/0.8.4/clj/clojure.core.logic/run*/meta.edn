@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "run*", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro run*\n  \"Executes goals until results are exhausted.\"\n  [bindings & goals]\n  `(-run {:occurs-check true :n false} ~bindings ~@goals))", :column 1, :line 1201, :macro true, :arglists ([bindings & goals]), :doc "Executes goals until results are exhausted."}

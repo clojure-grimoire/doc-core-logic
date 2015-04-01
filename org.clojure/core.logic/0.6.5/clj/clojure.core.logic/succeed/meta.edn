@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "succeed", :file "clojure/core/logic.clj", :type :fn, :src "(defn succeed [a]\n  \"A goal that always succeeds.\"\n  a)", :column 1, :line 890, :arglists ([a])}

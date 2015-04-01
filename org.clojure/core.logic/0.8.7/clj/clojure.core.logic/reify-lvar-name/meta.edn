@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "reify-lvar-name", :file "clojure/core/logic.clj", :type :fn, :src "(defn reify-lvar-name [s]\n  (let [c (count s)]\n    (if (< c 100)\n      (unbound-names c)\n      (symbol (str \"_\" (count s))))))", :column 1, :line 246, :arglists ([s])}

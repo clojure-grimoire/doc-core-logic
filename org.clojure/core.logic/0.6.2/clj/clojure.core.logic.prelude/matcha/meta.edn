@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "matcha", :file "clojure/core/logic/prelude.clj", :type :macro, :src "(defmacro matcha [xs & cs]\n  (match/handle-clauses 'clojure.core.logic.nonrel/conda xs cs))", :column 1, :line 57, :macro true, :arglists ([xs & cs])}

@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ITabled\n  (-reify-tabled [this v])\n  (reify-tabled [this v])\n  (alpha-equiv? [this x y])\n  (reuse [this argv cache start end])\n  (subunify [this arg ans]))", :doc nil, :ns "clojure.core.logic", :name "ITabled", :file "clojure/core/logic.clj", :column 1, :line 1708}

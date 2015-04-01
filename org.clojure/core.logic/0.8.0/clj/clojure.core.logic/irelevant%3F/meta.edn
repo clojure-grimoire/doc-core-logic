@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "irelevant?", :file "clojure/core/logic.clj", :type :fn, :src "(defn irelevant? [c]\n  (instance? clojure.core.logic.protocols.IRelevant c))", :column 1, :line 2165, :arglists ([c])}

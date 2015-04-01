@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "magic-cols", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn magic-cols [n grid]\n  (apply map list (partition n grid)))", :column 1, :line 889, :arglists ([n grid])}

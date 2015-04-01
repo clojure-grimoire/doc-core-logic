@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "conde", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro conde [& clauses]\n  (let [a (gensym \"a\")]\n    `(fn [~a]\n       (inc\n        (mplus* ~@(bind-conde-clauses a clauses))))))", :column 1, :line 913, :macro true, :arglists ([& clauses])}

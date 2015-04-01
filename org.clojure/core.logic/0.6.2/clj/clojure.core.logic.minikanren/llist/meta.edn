@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "llist", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro llist\n  ([f s] `(lcons ~f ~s))\n  ([f s & rest] `(lcons ~f (llist ~s ~@rest))))", :column 1, :line 454, :macro true, :arglists ([f s] [f s & rest])}

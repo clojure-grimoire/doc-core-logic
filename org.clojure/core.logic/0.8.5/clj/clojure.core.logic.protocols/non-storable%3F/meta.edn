@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.protocols", :name "non-storable?", :file "clojure/core/logic/protocols.clj", :type :fn, :src "(defn non-storable? [x]\n  (instance? INonStorable x))", :column 1, :line 29, :arglists ([x])}

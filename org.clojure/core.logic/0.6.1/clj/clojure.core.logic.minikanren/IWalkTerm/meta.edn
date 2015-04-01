@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IWalkTerm\n  (walk-term [v s]))", :doc nil, :ns "clojure.core.logic.minikanren", :name "IWalkTerm", :file "clojure/core/logic/minikanren.clj", :column 1, :line 36}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "build", :file "clojure/core/logic.clj", :type :fn, :src "(defn build [s u]\n  (build-term u s))", :column 1, :line 258, :arglists ([s u])}

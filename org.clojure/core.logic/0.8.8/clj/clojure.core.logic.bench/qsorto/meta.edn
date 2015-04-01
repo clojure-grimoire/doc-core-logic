@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "qsorto", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defne qsorto [l r r0]\n  ([[] _ r])\n  ([[x . lr] _ _]\n     (fresh [l1 l2 r1]\n       (partitiono lr x l1 l2)\n       (qsorto l2 r1 r0)\n       (qsorto l1 r (lcons x r1)))))", :column 1, :line 400}

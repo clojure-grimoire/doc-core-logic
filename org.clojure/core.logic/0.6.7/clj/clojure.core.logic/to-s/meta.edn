@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "to-s", :file "clojure/core/logic.clj", :type :fn, :src "(defn ^Substitutions to-s [v]\n  (let [s (reduce (fn [m [k v]] (assoc m k v)) {} v)\n        l (reduce (fn [l [k v]] (cons (Pair. k v) l)) '() v)]\n    (make-s s l)))", :column 1, :line 231, :tag clojure.core.logic.Substitutions, :arglists ([v])}

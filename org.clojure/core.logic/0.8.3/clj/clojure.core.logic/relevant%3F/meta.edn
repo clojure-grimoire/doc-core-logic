@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "relevant?", :file "clojure/core/logic.clj", :type :fn, :src "(defn relevant? [c a]\n  (let [id (id c)]\n    (and (or ((-> a :cs :cm) id)\n             (nil? id))\n         (-relevant? c a))))", :column 1, :line 2174, :arglists ([c a])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.dcg", :name "-->e", :file "clojure/core/logic/dcg.clj", :type :macro, :src "(defmacro -->e [name & cclauses]\n  (let [fsym (gensym \"l1_\")\n        osym (gensym \"o\")]\n   `(defn ~name [~fsym ~osym]\n      (conde\n       ~@(map list (map (partial handle-cclause fsym osym) cclauses))))))", :column 1, :line 110, :macro true, :arglists ([name & cclauses])}

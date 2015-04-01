@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "clojure.core.logic.tabled", :doc nil, :arglists ([this arg ans]), :name "subunify"}

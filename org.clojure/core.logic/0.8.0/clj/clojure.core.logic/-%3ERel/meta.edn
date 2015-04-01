@@ -1,0 +1,1 @@
+{:type :fn, :src "(RelHelper 20)", :ns "clojure.core.logic", :name "->Rel", :file "clojure/core/logic.clj", :column 1, :line 1792, :arglists ([name indexes meta f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 f13 f14 f15 f16 f17 & overage]), :doc "Positional factory function for class clojure.core.logic.Rel."}

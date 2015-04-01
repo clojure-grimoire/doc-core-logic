@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "clojure.core.logic.disequality", :doc nil, :arglists ([this c]), :name "discard-constraint"}

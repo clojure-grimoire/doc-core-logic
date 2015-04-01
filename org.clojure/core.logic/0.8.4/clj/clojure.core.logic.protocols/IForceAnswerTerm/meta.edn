@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IForceAnswerTerm\n  (-force-ans [v x]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IForceAnswerTerm", :file "clojure/core/logic/protocols.clj", :column 1, :line 198}

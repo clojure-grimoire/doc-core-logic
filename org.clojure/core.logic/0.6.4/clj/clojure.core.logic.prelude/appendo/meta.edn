@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "appendo", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defne appendo [x y z]\n  ([() _ y])\n  ([[?a . ?d] _ [?a . ?r]] (appendo ?d y ?r)))", :column 1, :line 78, :arglists ([x y z])}

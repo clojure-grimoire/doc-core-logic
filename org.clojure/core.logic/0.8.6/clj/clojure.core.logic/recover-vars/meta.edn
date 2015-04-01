@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "recover-vars", :file "clojure/core/logic.clj", :type :fn, :src "(defn recover-vars [p]\n  (loop [p (seq p) r #{}]\n    (if p\n      (let [[u v] (first p)]\n        (recur (next p)\n          (clojure.set/union\n            r (recover-vars-from-term u) (recover-vars-from-term v))))\n      r)))", :column 1, :line 2330, :arglists ([p])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "simple-fd-eq", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn simple-fd-eq []\n  (run* [x y]\n    (fd/in x y (fd/interval 0 9))\n    (fd/eq\n     (= (+ x y) 9)\n     (= (+ (* x 2) (* y 4)) 24))))", :column 1, :line 456, :arglists ([])}

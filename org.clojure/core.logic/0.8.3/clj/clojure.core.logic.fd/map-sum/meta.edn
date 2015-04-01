@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "map-sum", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn map-sum [f]\n  (fn loop [ls]\n    (if (empty? ls)\n      (fn [a] nil)\n      (conde\n        [(f (first ls))]\n        [(loop (rest ls))]))))", :column 1, :line 681, :arglists ([f])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "first-digito", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn first-digito [x l y]\n  (all\n   (digito x l y)\n   (a/> x 0)))", :column 1, :line 273, :arglists ([x l y])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "righto", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defne righto [x y l]\n  ([_ _ [x y . ?r]])\n  ([_ _ [_ . ?r]] (righto x y ?r)))", :column 1, :line 77, :arglists ([x y l])}

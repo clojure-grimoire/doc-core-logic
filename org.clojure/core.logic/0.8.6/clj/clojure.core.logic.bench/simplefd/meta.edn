@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "simplefd", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn simplefd []\n  (run* [x y]\n    (fd/in x y (fd/interval 0 9))\n    (fd/+ x y 9)\n    (fresh [p0 p1]\n      (fd/* 2 x p0)\n      (fd/* 4 y p1)\n      (fd/+ p0 p1 24))))", :column 1, :line 450, :arglists ([])}

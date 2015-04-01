@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.match", :name "all-blank?", :file "clojure/core/logic/match.clj", :type :fn, :src "(defn all-blank? [p]\n  (every? #(= % '_) p))", :column 1, :line 75, :arglists ([p])}

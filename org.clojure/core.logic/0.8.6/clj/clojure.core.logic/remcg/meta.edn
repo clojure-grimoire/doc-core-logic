@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "remcg", :file "clojure/core/logic.clj", :type :fn, :src "(defn remcg [c]\n  (fn [a]\n    (assoc a :cs (remc (:cs a) a c))))", :column 1, :line 2014, :arglists ([c])}

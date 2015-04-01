@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nonrel", :name "ifu*", :file "clojure/core/logic/nonrel.clj", :type :macro, :src "(defmacro ifu*\n  ([])\n  ([[e & gs] & grest]\n     `(ifu ~e [~@gs]\n           ~(if (seq grest)\n              `(delay (ifu* ~@grest))\n              nil))))", :column 1, :line 48, :macro true, :arglists ([] [[e & gs] & grest])}

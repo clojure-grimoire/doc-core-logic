@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "run", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro run [n & rest]\n  `(doall (solve ~n ~@rest)))", :column 1, :line 940, :macro true, :arglists ([n & rest])}

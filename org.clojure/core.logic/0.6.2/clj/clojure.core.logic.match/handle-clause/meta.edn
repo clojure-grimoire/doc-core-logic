@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.match", :name "handle-clause", :file "clojure/core/logic/match.clj", :type :fn, :src "(defn handle-clause [as]\n  (fn [[p & exprs]]\n    (let [pas (partition 2 (interleave p as))\n          r (ex* pas exprs #{})]\n      (if (all-blank? p)\n        r\n        (list r)))))", :column 1, :line 74, :arglists ([as])}

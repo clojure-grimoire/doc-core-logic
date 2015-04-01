@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "firsto", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn firsto [l a]\n  (exist [d]\n    (conso a d l)))", :column 1, :line 77, :arglists ([l a])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "noattacko", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defne noattacko [q others]\n  ([_ ()])\n  ([[x y] [[x1 y1] . others]]\n     (!= y y1)\n     (project [y y1 x x1]\n       (!= (- y1 y) (- x1 x))\n       (!= (- y1 y) (- x x1)))\n     (noattacko [x y] others)))", :column 1, :line 118, :arglists ([q others])}

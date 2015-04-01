@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.tabled", :name "make-ss", :file "clojure/core/logic/tabled.clj", :type :fn, :src "(defn ^SuspendedStream make-ss [cache ansv* f]\n  {:pre [(instance? clojure.lang.Atom cache)\n         (list? ansv*)\n         (fn? f)]}\n  (SuspendedStream. cache ansv* f))", :column 1, :line 21, :tag clojure.core.logic.tabled.SuspendedStream, :arglists ([cache ansv* f])}

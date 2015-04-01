@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "contains-lvar?", :file "clojure/core/logic.clj", :type :fn, :src "(defn contains-lvar? [x]\n  (some lvar? (tree-seq coll? seq x)))", :column 1, :line 1808, :arglists ([x])}

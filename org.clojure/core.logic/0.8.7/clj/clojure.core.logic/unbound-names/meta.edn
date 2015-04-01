@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "unbound-names", :file "clojure/core/logic.clj", :type :var, :src "(def unbound-names\n  (let [r (range 100)]\n    (zipmap r (map (comp symbol str) (repeat \"_\") r))))", :column 1, :line 242}

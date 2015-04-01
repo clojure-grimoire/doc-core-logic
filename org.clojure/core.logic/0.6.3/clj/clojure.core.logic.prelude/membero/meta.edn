@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "membero", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defne membero [x l]\n  ([_ [x . ?tail]])\n  ([_ [?head . ?tail]]\n     (membero x ?tail)))", :column 1, :line 73, :arglists ([x l])}

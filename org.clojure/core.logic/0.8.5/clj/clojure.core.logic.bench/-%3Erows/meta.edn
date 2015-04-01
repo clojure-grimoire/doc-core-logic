@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "->rows", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn ->rows [xs]\n  (->> xs (partition 9) (map vec) (into [])))", :column 1, :line 620, :arglists ([xs])}

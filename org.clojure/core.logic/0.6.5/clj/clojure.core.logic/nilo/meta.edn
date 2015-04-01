@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "nilo", :file "clojure/core/logic.clj", :type :fn, :src "(defn nilo [a]\n  \"Goal that unifies its argument with nil.\"\n  (== nil a))", :column 1, :line 1345, :arglists ([a])}

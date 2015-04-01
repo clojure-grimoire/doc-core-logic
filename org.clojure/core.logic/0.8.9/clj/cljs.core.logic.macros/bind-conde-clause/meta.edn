@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "bind-conde-clause", :file "cljs/core/logic/macros.clj", :type :fn, :src "(defn bind-conde-clause [a]\n  (fn [g-rest]\n    `(bind* ~a ~@g-rest)))", :column 1, :line 13, :arglists ([a])}

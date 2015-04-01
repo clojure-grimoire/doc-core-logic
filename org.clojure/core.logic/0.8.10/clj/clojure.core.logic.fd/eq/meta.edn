@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "eq", :file "clojure/core/logic/fd.clj", :type :macro, :src "(defmacro eq [& forms]\n  `(all\n    ~@(map eq-form forms)))", :column 1, :line 1156, :macro true, :arglists ([& forms])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "tree-term?", :file "clojure/core/logic.clj", :type :fn, :src "(defn tree-term? [x]\n  (or (coll? x)\n      (instance? ITreeTerm x)))", :column 1, :line 884, :arglists ([x])}

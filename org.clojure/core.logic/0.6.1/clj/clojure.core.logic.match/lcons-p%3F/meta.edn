@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.match", :name "lcons-p?", :file "clojure/core/logic/match.clj", :type :fn, :src "(defn lcons-p? [p]\n  (and (coll? p)\n       (not (nil? (some '#{.} p)))))", :column 1, :line 9, :arglists ([p])}

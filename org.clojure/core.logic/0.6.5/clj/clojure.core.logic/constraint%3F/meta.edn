@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "constraint?", :file "clojure/core/logic.clj", :type :fn, :src "(defn constraint? [x]\n  (instance? Constraint x))", :column 1, :line 1880, :arglists ([x])}

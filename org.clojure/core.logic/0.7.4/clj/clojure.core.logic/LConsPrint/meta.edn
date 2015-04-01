@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol LConsPrint\n  (toShortString [this]))", :doc nil, :ns "clojure.core.logic", :name "LConsPrint", :file "clojure/core/logic.clj", :column 1, :line 344}

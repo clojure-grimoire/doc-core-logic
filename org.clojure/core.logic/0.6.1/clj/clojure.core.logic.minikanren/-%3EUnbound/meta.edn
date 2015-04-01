@@ -1,0 +1,1 @@
+{:type :fn, :src "(deftype Unbound [])", :ns "clojure.core.logic.minikanren", :name "->Unbound", :file "clojure/core/logic/minikanren.clj", :column 1, :line 54, :arglists ([]), :doc "Positional factory function for class clojure.core.logic.minikanren.Unbound."}

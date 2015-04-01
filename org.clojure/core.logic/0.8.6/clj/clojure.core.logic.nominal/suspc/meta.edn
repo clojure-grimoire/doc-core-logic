@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nominal", :name "suspc", :file "clojure/core/logic/nominal.clj", :type :fn, :src "(defn suspc [v1 v2 swap]\n  (cgoal (-suspc v1 v2 swap)))", :column 1, :line 256, :arglists ([v1 v2 swap])}

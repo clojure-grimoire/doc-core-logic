@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nominal", :name "nom-swap", :file "clojure/core/logic/nominal.clj", :type :fn, :src "(defn nom-swap [a swap]\n  (cond\n    (= a (first swap)) (second swap)\n    (= a (second swap)) (first swap)\n    :else a))", :column 1, :line 24, :arglists ([a swap])}

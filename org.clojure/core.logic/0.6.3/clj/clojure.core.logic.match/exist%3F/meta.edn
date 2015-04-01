@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.match", :name "exist?", :file "clojure/core/logic/match.clj", :type :fn, :src "(defn exist? [cs]\n  (= (first cs) `exist))", :column 1, :line 40, :arglists ([cs])}

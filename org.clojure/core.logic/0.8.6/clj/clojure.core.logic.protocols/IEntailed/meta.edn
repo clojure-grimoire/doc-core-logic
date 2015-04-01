@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IEntailed\n  (-entailed? [c]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IEntailed", :file "clojure/core/logic/protocols.clj", :column 1, :line 143}

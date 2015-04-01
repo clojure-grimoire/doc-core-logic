@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "a-sym", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(def a-sym (partial sym-helper \"a\"))", :column 1, :line 108}

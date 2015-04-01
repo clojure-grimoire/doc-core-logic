@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "constrain-tree", :file "clojure/core/logic.clj", :type :fn, :src "(defn constrain-tree [t fc]\n  (fn [a]\n    (-constrain-tree t fc a)))", :column 1, :line 2772, :arglists ([t fc])}

@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol LConsPrint\n  (toShortString [this]))", :doc nil, :ns "clojure.core.logic.minikanren", :name "LConsPrint", :file "clojure/core/logic/minikanren.clj", :column 1, :line 342}

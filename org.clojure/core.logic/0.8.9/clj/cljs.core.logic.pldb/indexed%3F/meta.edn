@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.pldb", :name "indexed?", :file "cljs/core/logic/pldb.clj", :type :fn, :src "(defn indexed? [v]\n  (true? (:index (meta v))))", :column 1, :line 3, :arglists ([v])}

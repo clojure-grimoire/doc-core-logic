@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "run*", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro run* [& goals]\n  \"Executes goals until results are exhausted.\"\n  `(run false ~@goals))", :column 1, :line 957, :macro true, :arglists ([& goals])}

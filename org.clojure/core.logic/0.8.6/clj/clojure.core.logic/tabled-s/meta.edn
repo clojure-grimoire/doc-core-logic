@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "tabled-s", :file "clojure/core/logic.clj", :type :fn, :src "(defn tabled-s\n  ([] (tabled-s false))\n  ([oc] (tabled-s oc nil))\n  ([oc meta]\n     (-> (with-meta (make-s) meta)\n       (assoc :oc oc)\n       (assoc :ts (atom {})))))", :column 1, :line 516, :arglists ([] [oc] [oc meta])}

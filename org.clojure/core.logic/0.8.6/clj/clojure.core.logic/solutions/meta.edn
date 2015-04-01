@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "solutions", :file "clojure/core/logic.clj", :type :fn, :src "(defn solutions\n  ([s g]\n     (solutions s (lvar) g))\n  ([s q g]\n     (take* ((all g (reifyg q)) s))))", :column 1, :line 1244, :arglists ([s g] [s q g])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "annotate", :file "clojure/core/logic.clj", :type :fn, :src "(defn annotate [k v]\n  (fn [a]\n    (vary-meta a assoc k v)))", :column 1, :line 532, :arglists ([k v])}

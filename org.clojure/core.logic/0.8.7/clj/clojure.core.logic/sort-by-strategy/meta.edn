@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "sort-by-strategy", :file "clojure/core/logic.clj", :type :fn, :src "(defn sort-by-strategy [v x a]\n  (case (-> x meta ::strategy)\n    ::ff (seq (sort (sort-by-member-count a) v))\n    ;; TODO: throw on non-existant strategies\n    v))", :column 1, :line 2195, :arglists ([v x a])}

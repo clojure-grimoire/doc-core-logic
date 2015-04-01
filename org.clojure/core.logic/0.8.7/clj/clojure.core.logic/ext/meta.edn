@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "ext", :file "clojure/core/logic.clj", :type :fn, :src "(defn ext [s u v]\n  (if (and (:oc s) (occurs-check s u (if (subst-val? v) (:v v) v)))\n    nil\n    (ext-no-check s u v)))", :column 1, :line 213, :arglists ([s u v])}

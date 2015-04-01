@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "defne", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro defne [& rest]\n  \"Define a goal fn. Supports pattern matching. All\n   patterns will be tried. See conde.\"\n  (apply defnm `conde rest))", :column 1, :line 1371, :macro true, :arglists ([& rest])}

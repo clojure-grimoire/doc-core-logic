@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.match", :name "lvar-sym?", :file "clojure/core/logic/match.clj", :type :fn, :src "(defn lvar-sym? [s]\n  (= (first (str s)) \\?))", :column 1, :line 32, :arglists ([s])}

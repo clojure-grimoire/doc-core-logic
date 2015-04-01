@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.dcg", :name "exist?", :file "clojure/core/logic/dcg.clj", :type :fn, :src "(defn exist? [clause]\n  (and (seq? clause)\n       (let [f (first clause)]\n         (and (symbol? f)\n              (= (name f) \"exist\")))))", :column 1, :line 30, :arglists ([clause])}

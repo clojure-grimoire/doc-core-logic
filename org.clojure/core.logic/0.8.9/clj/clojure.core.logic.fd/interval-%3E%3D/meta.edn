@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "interval->=", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn interval->= [i j]\n  (core/>= (-lb i) (-ub j)))", :column 1, :line 51, :arglists ([i j])}

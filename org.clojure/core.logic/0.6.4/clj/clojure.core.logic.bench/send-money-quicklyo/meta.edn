@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "send-money-quicklyo", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn send-money-quicklyo [send more money]\n  (fresh [l]\n    (do-send-moolao [send more money] (range 10) l)))", :column 1, :line 214, :arglists ([send more money])}

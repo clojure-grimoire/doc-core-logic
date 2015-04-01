@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "bounds", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn bounds [i]\n  (pair (-lb i) (-ub i)))", :column 1, :line 39, :arglists ([i])}

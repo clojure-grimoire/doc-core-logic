@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "uai", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro uai\n  [& args]\n  (if (resolve 'unchecked-add-int)\n    `(unchecked-add-int ~@args)\n    `(unchecked-add ~@args)))", :column 1, :line 740, :macro true, :arglists ([& args])}

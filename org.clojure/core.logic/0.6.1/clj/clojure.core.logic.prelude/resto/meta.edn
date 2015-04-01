@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "resto", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn resto [l d]\n  (exist [a]\n    (== (lcons a d) l)))", :column 1, :line 25, :arglists ([l d])}

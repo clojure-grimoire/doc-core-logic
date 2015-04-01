@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ISet\n  (member? [this n])\n  (disjoint? [this that])\n  (intersection [this that])\n  (difference [this that]))", :doc nil, :ns "clojure.core.logic.fd", :name "ISet", :file "clojure/core/logic/fd.clj", :column 1, :line 38}

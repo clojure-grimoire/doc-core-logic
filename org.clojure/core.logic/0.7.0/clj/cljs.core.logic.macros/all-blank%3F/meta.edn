@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "all-blank?", :file "cljs/core/logic/macros.clj", :type :fn, :src "(defn all-blank? [p]\n  (every? #(= % '_) p))", :column 1, :line 296, :arglists ([p])}

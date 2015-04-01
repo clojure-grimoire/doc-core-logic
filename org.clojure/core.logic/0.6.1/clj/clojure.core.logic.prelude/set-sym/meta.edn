@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "set-sym", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn set-sym [name arity]\n  (->sym name \"_\" arity \"-set\"))", :column 1, :line 166, :arglists ([name arity])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "run-nc*", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro run-nc* [& goals]\n  \"Executes goals until results are exhausted. Does not occurs-check.\"\n  `(run-nc false ~@goals))", :column 1, :line 962, :macro true, :arglists ([& goals])}

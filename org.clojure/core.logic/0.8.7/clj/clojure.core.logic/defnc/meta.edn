@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "defnc", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro defnc [name args & body]\n  `(def ~name (fnc ~args ~@body)))", :column 1, :line 2592, :macro true, :arglists ([name args & body])}

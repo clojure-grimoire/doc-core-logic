@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ISortedDomain\n  (-drop-one [this])\n  (-drop-before [this n])\n  (-keep-before [this n]))", :doc nil, :ns "clojure.core.logic.fd", :name "ISortedDomain", :file "clojure/core/logic/fd.clj", :column 1, :line 23}

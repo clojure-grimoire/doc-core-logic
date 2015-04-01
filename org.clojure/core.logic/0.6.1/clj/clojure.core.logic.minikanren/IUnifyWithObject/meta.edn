@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IUnifyWithObject\n  (unify-with-object [v u s]))", :doc nil, :ns "clojure.core.logic.minikanren", :name "IUnifyWithObject", :file "clojure/core/logic/minikanren.clj", :column 1, :line 15}

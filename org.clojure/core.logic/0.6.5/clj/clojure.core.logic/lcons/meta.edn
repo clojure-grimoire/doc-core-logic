@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "lcons", :file "clojure/core/logic.clj", :type :fn, :src "(defn lcons [a d]\n  \"Constructs a sequence a with an improper tail d if d is a logic variable.\"\n  (if (or (coll? d) (nil? d))\n    (cons a (seq d))\n    (LCons. a d -1 nil)))", :column 1, :line 442, :arglists ([a d])}

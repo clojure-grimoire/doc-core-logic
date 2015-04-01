@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "fixc", :file "clojure/core/logic.clj", :type :fn, :src "(defn fixc\n  ([x f reifier] (fixc x f nil reifier))\n  ([x f runnable reifier]\n     (cgoal (-fixc x f runnable reifier))))", :column 1, :line 2716, :arglists ([x f reifier] [x f runnable reifier])}

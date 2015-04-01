@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "log", :file "cljs/core/logic/macros.clj", :type :macro, :src "(defmacro log\n  \"Goal for println\"\n  [& s]\n  `(fn [a#]\n     (println ~@s)\n     a#))", :column 1, :line 125, :macro true, :arglists ([& s]), :doc "Goal for println"}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "->feature", :file "clojure/core/logic.clj", :type :fn, :src "(defn ->feature [x]\n  (-feature\n    (walk-term x\n      (fn [y]\n        (if (tree-term? y)\n          (->feature y)\n          y)))))", :column 1, :line 2661, :arglists ([x])}

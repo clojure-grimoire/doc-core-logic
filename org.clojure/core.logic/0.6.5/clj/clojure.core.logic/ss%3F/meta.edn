@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "ss?", :file "clojure/core/logic.clj", :type :fn, :src "(defn ss? [x]\n  (instance? SuspendedStream x))", :column 1, :line 1601, :arglists ([x])}

@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IConstraintWatchedStores\n  (watched-stores [this]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IConstraintWatchedStores", :file "clojure/core/logic/protocols.clj", :column 1, :line 152}

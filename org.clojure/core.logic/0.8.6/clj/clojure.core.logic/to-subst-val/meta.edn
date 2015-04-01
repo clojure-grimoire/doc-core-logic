@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "to-subst-val", :file "clojure/core/logic.clj", :type :fn, :src "(defn to-subst-val [v]\n  (if (subst-val? v)\n    v\n    (subst-val ::unbound)))", :column 1, :line 591, :arglists ([v])}

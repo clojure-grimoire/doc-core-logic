@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "-distinct", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn -distinct [x y* n*]\n  (cgoal (-distinctc x y* n*)))", :column 1, :line 1049, :arglists ([x y* n*])}

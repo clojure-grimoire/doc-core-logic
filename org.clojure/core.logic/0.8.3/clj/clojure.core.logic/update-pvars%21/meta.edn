@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "update-pvars!", :file "clojure/core/logic.clj", :type :fn, :src "(defn update-pvars! [x vars]\n  (if (lvar-sym? x)\n    (do\n      (swap! vars conj x)\n      x)\n    x))", :column 1, :line 1430, :arglists ([x vars])}

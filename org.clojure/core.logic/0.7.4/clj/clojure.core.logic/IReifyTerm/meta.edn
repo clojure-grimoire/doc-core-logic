@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IReifyTerm\n  (reify-term [v s]))", :doc nil, :ns "clojure.core.logic", :name "IReifyTerm", :file "clojure/core/logic.clj", :column 1, :line 35}

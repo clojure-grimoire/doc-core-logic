@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "lcons", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn lcons [a d]\n  (if (or (coll? d) (nil? d))\n    (cons a (seq d))\n    (LCons. a d -1 nil)))", :column 1, :line 446, :arglists ([a d])}

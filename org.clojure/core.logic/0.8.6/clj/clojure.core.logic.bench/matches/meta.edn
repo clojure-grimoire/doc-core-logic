@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "matches", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn matches [n]\n  (run 1 [a b c d]\n    (fd/in a b c d (fd/interval 1 n))\n    (fd/distinct [a b c d])\n    (== a 1)\n    (fd/<= a b) (fd/<= b c) (fd/<= c d)\n    (fd/eq (= (+ a b c d) n))\n    (checko [a b c d] () () n)))", :column 1, :line 535, :arglists ([n])}

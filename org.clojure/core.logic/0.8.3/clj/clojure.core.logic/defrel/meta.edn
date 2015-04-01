@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "defrel", :file "clojure/core/logic.clj", :type :macro, :src "(RelHelper 20)", :column 1, :line 1798, :macro true, :arglists ([name & rest]), :doc "Define a relation for adding facts. Takes a name and some fields.\n         Use fact/facts to add facts and invoke the relation to query it."}

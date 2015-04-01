@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "conjo", :file "clojure/core/logic.clj", :type :fn, :src "(defn conjo\n  \"A constraint version of conj\"\n  [coll & args]\n  (cgoal (-conjo coll (butlast args) (last args))))", :column 1, :line 2741, :arglists ([coll & args]), :doc "A constraint version of conj"}

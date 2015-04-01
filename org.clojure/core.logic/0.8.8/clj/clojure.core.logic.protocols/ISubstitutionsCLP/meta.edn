@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ISubstitutionsCLP\n  (root-val [this x])\n  (root-var [this x])\n  (ext-run-cs [this x v])\n  (queue [this c])\n  (update-var [this x v]))", :doc nil, :ns "clojure.core.logic.protocols", :name "ISubstitutionsCLP", :file "clojure/core/logic/protocols.clj", :column 1, :line 112}

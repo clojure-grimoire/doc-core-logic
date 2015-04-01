@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "apply-to-helper", :file "clojure/core/logic.clj", :type :fn, :src "(def-apply-to-helper 20)", :column 1, :line 1491, :arglists ([ifn arglist])}

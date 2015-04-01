@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nonrel", :name "condu", :file "clojure/core/logic/nonrel.clj", :type :macro, :src "(defmacro condu [& clauses]\n  (let [a (gensym \"a\")]\n    `(fn [~a]\n       (ifu* ~@(map (cond-clauses a) clauses)))))", :column 1, :line 117, :macro true, :arglists ([& clauses])}

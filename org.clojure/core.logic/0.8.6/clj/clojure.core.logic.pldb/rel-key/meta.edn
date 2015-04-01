@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "rel-key", :file "clojure/core/logic/pldb.clj", :type :fn, :src "(defn rel-key [rel]\n  (if (keyword? rel)\n    rel\n    (:rel-name (meta rel))))", :column 1, :line 23, :arglists ([rel])}

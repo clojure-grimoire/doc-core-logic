@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic", :name "lvar-binds", :file "cljs/core/logic.clj", :type :fn, :src "(defn lvar-binds [syms]\n  (mapcat lvar-bind syms))", :column 1, :line 24, :arglists ([syms])}

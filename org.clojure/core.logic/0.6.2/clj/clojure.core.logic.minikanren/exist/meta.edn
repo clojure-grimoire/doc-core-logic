@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "exist", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro exist [[& x-rest] & g-rest]\n  `(fn [a#]\n     (inc\n      (let [~@(lvar-binds x-rest)]\n        (bind* a# ~@g-rest)))))", :column 1, :line 924, :macro true, :arglists ([[& x-rest] & g-rest])}

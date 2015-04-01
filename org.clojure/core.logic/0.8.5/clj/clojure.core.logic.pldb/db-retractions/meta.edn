@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "db-retractions", :file "clojure/core/logic/pldb.clj", :type :fn, :src "(defn db-retractions [base-db & retractions]\n  (reduce #(apply db-retraction %1 %2) base-db retractions))", :column 1, :line 128, :arglists ([base-db & retractions])}

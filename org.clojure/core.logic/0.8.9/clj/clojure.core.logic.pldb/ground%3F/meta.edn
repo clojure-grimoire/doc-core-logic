@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "ground?", :file "clojure/core/logic/pldb.clj", :type :fn, :src "(defn ground? [s term]\n  (not (contains-lvar? (l/walk* s term))))", :column 1, :line 38, :arglists ([s term])}

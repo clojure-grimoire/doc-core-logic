@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "env-locals", :file "cljs/core/logic/macros.clj", :type :fn, :src "(defn env-locals [& syms]\n  (disj (set (apply concat syms)) '_))", :column 1, :line 357, :arglists ([& syms])}

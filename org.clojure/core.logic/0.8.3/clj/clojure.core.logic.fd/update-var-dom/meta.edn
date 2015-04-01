@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "update-var-dom", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn update-var-dom\n  [a x dom]\n  (let [domp (get-dom a x)]\n    (if domp\n      (let [i (intersection dom domp)]\n        (when i\n          (resolve-storable-dom a x i)))\n      (resolve-storable-dom a x dom))))", :column 1, :line 636, :arglists ([a x dom])}

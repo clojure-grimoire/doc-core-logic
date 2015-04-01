@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "sym->lvar", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn sym->lvar [sym]\n  `(lvar '~sym))", :column 1, :line 959, :arglists ([sym])}

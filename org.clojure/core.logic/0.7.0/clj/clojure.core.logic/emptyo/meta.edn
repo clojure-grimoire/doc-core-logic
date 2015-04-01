@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "emptyo", :file "clojure/core/logic.clj", :type :fn, :src "(defn emptyo\n  \"A relation where a is the empty list\"\n  [a]\n  (== '() a))", :column 1, :line 1366, :arglists ([a]), :doc "A relation where a is the empty list"}

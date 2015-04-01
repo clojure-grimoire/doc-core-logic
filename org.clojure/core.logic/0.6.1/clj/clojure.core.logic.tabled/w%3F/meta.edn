@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.tabled", :name "w?", :file "clojure/core/logic/tabled.clj", :type :fn, :src "(defn w? [x]\n  (vector? x))", :column 1, :line 35, :arglists ([x])}

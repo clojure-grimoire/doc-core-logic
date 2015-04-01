@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "record?", :file "clojure/core/logic.clj", :type :fn, :src "(defn record? [x]\n  (instance? clojure.lang.IRecord x))", :column 1, :line 30, :arglists ([x])}

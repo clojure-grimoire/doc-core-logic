@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IBind\n  (bind [this g]))", :doc nil, :ns "clojure.core.logic.minikanren", :name "IBind", :file "clojure/core/logic/minikanren.clj", :column 1, :line 45}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "composeg", :file "clojure/core/logic.clj", :type :fn, :src "(defn composeg\n  ([] identity)\n  ([g0 g1]\n     (fn [a]\n       (let [a (g0 a)]\n         (and a (g1 a))))))", :column 1, :line 1037, :arglists ([] [g0 g1])}

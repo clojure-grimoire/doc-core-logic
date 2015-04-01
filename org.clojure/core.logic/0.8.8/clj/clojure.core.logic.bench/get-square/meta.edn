@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "get-square", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn get-square [rows x y]\n  (for [x (range x (+ x 3))\n        y (range y (+ y 3))]\n    (get-in rows [x y])))", :column 1, :line 614, :arglists ([rows x y])}

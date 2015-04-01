@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "ientailed?", :file "clojure/core/logic.clj", :type :fn, :src "(defn ientailed? [c]\n  (instance? clojure.core.logic.protocols.IEntailed c))", :column 1, :line 2020, :arglists ([c])}

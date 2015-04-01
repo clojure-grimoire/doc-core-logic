@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic", :name "defnu", :file "cljs/core/logic.clj", :type :macro, :src "(defmacro defnu\n  \"Define a committed choice goal. See condu.\"\n  [& rest]\n  `(defnm condu ~@rest))", :column 1, :line 438, :macro true, :arglists ([& rest]), :doc "Define a committed choice goal. See condu."}

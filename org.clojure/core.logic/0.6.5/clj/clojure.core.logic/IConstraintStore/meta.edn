@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IConstraintStore\n  (merge-constraint [this c])\n  (refine-constraint [this c u])\n  (discard-constraint [this c])\n  (propagate [this s u v])\n  (get-simplified [this])\n  (discard-simplified [this]))", :doc nil, :ns "clojure.core.logic", :name "IConstraintStore", :file "clojure/core/logic.clj", :column 1, :line 1763}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "choice", :file "clojure/core/logic.clj", :type :fn, :src "(defn choice [a f]\n  (Choice. a f))", :column 1, :line 1102, :arglists ([a f])}

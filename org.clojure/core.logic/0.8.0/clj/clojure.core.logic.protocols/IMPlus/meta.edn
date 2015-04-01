@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IMPlus\n  (mplus [a f]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IMPlus", :file "clojure/core/logic/protocols.clj", :column 1, :line 70}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "membero", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn membero [x l]\n  (conde\n    ((firsto l x))\n    ((exist [r]\n       (resto l r)\n       (membero x r)))))", :column 1, :line 85, :arglists ([x l])}

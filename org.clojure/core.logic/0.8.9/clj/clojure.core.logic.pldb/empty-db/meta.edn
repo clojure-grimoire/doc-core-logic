@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "empty-db", :file "clojure/core/logic/pldb.clj", :type :var, :src "(def empty-db {})", :column 1, :line 6}

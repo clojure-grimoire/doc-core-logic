@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "lcons-expr?", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn lcons-expr? [expr]\n  (and (seq? expr) (some '#{.} (set expr))))", :column 1, :line 19, :arglists ([expr])}

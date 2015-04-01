@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "matcha", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro matcha [xs & cs]\n  \"Define a soft cut pattern match. See conda.\"\n  (handle-clauses `conda xs cs))", :column 1, :line 1395, :macro true, :arglists ([xs & cs])}

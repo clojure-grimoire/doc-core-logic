@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "solve-nqueens", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn solve-nqueens []\n  (run* [q]\n    (exist [y1 y2 y3 y4 y5 y6 y7 y8]\n      (== q [[1 y1] [2 y2] [3 y3] [4 y4] [5 y5] [6 y6] [7 y7] [8 y8]])\n      (nqueenso q))))", :column 1, :line 131, :arglists ([])}

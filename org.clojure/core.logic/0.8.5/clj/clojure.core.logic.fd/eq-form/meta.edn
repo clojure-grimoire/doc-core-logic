@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "eq-form", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn eq-form [form]\n  (let [vars (atom [])\n        exprs (eq* (expand form) vars)]\n    (->fd @vars exprs)))", :column 1, :line 1148, :arglists ([form])}

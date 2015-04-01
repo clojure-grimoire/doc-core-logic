@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "fnu", :file "cljs/core/logic/macros.clj", :type :macro, :src "(defmacro fnu\n  \"Define an anonymous committed choice goal. See condu.\"\n  [& rest]\n  `(fnm condu ~@rest))", :column 1, :line 428, :macro true, :arglists ([& rest]), :doc "Define an anonymous committed choice goal. See condu."}

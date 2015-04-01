@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "init", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn init [vars hints]\n  (if (seq vars)\n    (let [hint (first hints)]\n      (all\n       (if-not (zero? hint)\n         (== (first vars) hint)\n         succeed)\n       (init (next vars) (next hints))))\n    succeed))", :column 1, :line 605, :arglists ([vars hints])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "empty-s", :file "clojure/core/logic/minikanren.clj", :type :var, :src "(def ^Substitutions empty-s (make-s {} '()))", :column 1, :line 222, :tag clojure.core.logic.minikanren.Substitutions}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "unify-with-domain*", :file "clojure/core/logic/fd.clj", :type :var, :src "(declare domain sorted-set->domain\n         difference* intersection* disjoint?*\n         unify-with-domain* finite-domain?\n         interval multi-interval)", :column 1, :line 44, :declared true}

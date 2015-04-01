@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "facts-for", :file "clojure/core/logic/pldb.clj", :type :fn, :src "(defn facts-for [dbs kname]\n  (mapcat #(get-in % [kname ::unindexed]) dbs))", :column 1, :line 16, :arglists ([dbs kname])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "lvar?", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn lvar? [x]\n  (instance? LVar x))", :column 1, :line 318, :arglists ([x])}

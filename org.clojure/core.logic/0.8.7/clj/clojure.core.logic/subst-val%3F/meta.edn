@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "subst-val?", :file "clojure/core/logic.clj", :type :fn, :src "(defn subst-val? [x]\n  (instance? SubstValue x))", :column 1, :line 195, :arglists ([x])}

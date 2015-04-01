@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IUnifyWithSequential\n  (unify-with-seq [v u s]))", :doc nil, :ns "clojure.core.logic.minikanren", :name "IUnifyWithSequential", :file "clojure/core/logic/minikanren.clj", :column 1, :line 22}

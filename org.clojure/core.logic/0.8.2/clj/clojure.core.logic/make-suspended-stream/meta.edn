@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "make-suspended-stream", :file "clojure/core/logic.clj", :type :fn, :src "(defn make-suspended-stream [cache ansv* f]\n  (SuspendedStream. cache ansv* f))", :column 1, :line 1960, :arglists ([cache ansv* f])}

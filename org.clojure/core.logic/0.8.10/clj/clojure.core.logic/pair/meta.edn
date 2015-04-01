@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "pair", :file "clojure/core/logic.clj", :type :fn, :src "(declare empty-s choice lvar lvar? pair lcons run-constraints*)", :column 1, :line 214, :declared true}

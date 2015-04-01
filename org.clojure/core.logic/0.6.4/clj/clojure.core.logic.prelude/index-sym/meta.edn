@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "index-sym", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn index-sym [name arity o]\n  (->sym name \"_\" arity \"-\" o \"-index\"))", :column 1, :line 182, :arglists ([name arity o])}

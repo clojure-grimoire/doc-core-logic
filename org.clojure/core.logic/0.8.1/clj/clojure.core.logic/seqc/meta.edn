@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "seqc", :file "clojure/core/logic.clj", :type :fn, :src "(defn seqc [v]\n  (fixc v\n    (fn [t _ _]\n      (cond\n        (sequential? t) succeed\n        (lcons? t) (seqc (lnext t))\n        :else fail))\n    (fn [_ v _ r a]\n      `(seqc ~(-reify a v r)))))", :column 1, :line 2850, :arglists ([v])}

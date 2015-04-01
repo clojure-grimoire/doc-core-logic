@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "facts-using-index", :file "clojure/core/logic/pldb.clj", :type :fn, :src "(defn facts-using-index [dbs kname index val]\n  (mapcat #(get-in % [kname index val]) dbs))", :column 1, :line 19, :arglists ([dbs kname index val])}

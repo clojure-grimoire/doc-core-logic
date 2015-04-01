@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "run-nc*", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro run-nc* [& rest]\n  `(run-nc false ~@rest))", :column 1, :line 950, :macro true, :arglists ([& rest])}

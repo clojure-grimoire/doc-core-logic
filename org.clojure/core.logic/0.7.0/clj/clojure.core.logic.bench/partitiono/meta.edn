@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "partitiono", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defne partitiono [a b c d]\n  ([[x . l] _ [x . l1] _]\n     (conda\n       ((project [x b]\n          (== (<= x b) true))\n        (partition l b l1 d))\n       (partition l b c d))))", :column 1, :line 246, :arglists ([a b c d])}

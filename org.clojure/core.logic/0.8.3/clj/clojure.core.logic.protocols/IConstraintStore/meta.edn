@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IConstraintStore\n  (addc [this a c])\n  (updatec [this a c])\n  (remc [this a c])\n  (runc [this c state])\n  (constraints-for [this a x ws])\n  (migrate [this x root]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IConstraintStore", :file "clojure/core/logic/protocols.clj", :column 1, :line 122}

@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "clojure.core.logic", :doc nil, :arglists ([v u s]), :name "unify-with-seq"}

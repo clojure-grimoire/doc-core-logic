@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "pred", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro pred\n  \"Check a predicate against the value logic var. Non-relational.\"\n  [v f]\n  `(project [~v]\n     (== (~f ~v) true)))", :column 1, :line 1062, :macro true, :arglists ([v f]), :doc "Check a predicate against the value logic var. Non-relational."}

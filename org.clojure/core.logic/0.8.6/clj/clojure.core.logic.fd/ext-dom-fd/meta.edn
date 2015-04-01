@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "ext-dom-fd", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn ext-dom-fd\n  [a x dom domp]\n  (let [a (add-dom a x ::l/fd dom)]\n    (if (not= domp dom)\n      ((run-constraints* [x] (:cs a) ::l/fd) a)\n      a)))", :column 1, :line 594, :arglists ([a x dom domp])}

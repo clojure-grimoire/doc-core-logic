@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "-fnm", :file "cljs/core/logic/macros.clj", :type :macro, :src "(defmacro -fnm [fn-gen t as & cs]\n  (binding [*locals* (env-locals as (keys &env))]\n     `(~fn-gen [~@as] ~(handle-clauses t as cs))))", :column 1, :line 365, :macro true, :arglists ([fn-gen t as & cs])}

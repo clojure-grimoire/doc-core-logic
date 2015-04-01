@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "connected_2-set", :file "clojure/core/logic/bench.clj", :type :var, :src "(defrel connected ^:index x ^:index y)", :column 1, :line 114}

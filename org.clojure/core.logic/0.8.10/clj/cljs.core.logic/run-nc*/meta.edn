@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic", :name "run-nc*", :file "cljs/core/logic.clj", :type :macro, :src "(defmacro run-nc*\n  \"Executes goals until results are exhausted. Does not occurs-check.\"\n  [& goals]\n  `(run-nc false ~@goals))", :column 1, :line 112, :macro true, :arglists ([& goals]), :doc "Executes goals until results are exhausted. Does not occurs-check."}

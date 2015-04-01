@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "magic-sum", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn magic-sum [ls res]\n  (conde\n    [(== ls []) (== res 0)]\n    [(== ls [res])]\n    [(fresh [h t inter]\n       (conso h t ls)\n       (fd/+ h inter res)\n       (magic-sum t inter))]))", :column 1, :line 886, :arglists ([ls res])}

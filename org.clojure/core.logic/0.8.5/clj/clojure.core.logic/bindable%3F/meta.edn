@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "bindable?", :file "clojure/core/logic.clj", :type :fn, :src "(defn bindable? [x]\n  (or (lvar? x)\n      (instance? IBindable x)))", :column 1, :line 716, :arglists ([x])}

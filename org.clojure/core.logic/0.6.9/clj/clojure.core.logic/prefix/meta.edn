@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "prefix", :file "clojure/core/logic.clj", :type :fn, :src "(defn prefix [s <s]\n  (if (= s <s)\n    ()\n    (cons (first s) (prefix (rest s) <s))))", :column 1, :line 1838, :arglists ([s <s])}

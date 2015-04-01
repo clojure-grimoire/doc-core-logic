@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "to-w", :file "clojure/core/logic.clj", :type :fn, :src "(defn to-w [s]\n  (into [] s))", :column 1, :line 1685, :arglists ([s])}

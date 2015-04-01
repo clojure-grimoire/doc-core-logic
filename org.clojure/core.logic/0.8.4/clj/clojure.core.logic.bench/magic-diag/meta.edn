@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "magic-diag", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn magic-diag [n rows]\n  (first\n    (reduce\n      (fn [[r n] xs]\n        [(conj r (nth xs n)) (inc n)])\n      [[] 0]\n      rows)))", :column 1, :line 878, :arglists ([n rows])}

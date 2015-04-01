@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "prep", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn prep [expr]\n  (let [lvars (atom {})\n        prepped (if (lcons-expr? expr)\n                  (prep* expr lvars true)\n                  (postwalk (replace-lvar lvars) expr))]\n    (with-meta prepped {:lvars @lvars})))", :column 1, :line 51, :arglists ([expr])}

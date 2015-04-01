@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.disequality", :name "!=", :file "clojure/core/logic/disequality.clj", :type :macro, :src "(defmacro != [u v]\n  `(fn [a#]\n     (!=-verify a# (unify a# ~u ~v))))", :column 1, :line 244, :macro true, :arglists ([u v])}

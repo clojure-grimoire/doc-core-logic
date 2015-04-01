@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "defne", :file "clojure/core/logic/prelude.clj", :type :macro, :src "(defmacro defne [& rest]\n  (apply match/defnm `conde rest))", :column 1, :line 39, :macro true, :arglists ([& rest])}

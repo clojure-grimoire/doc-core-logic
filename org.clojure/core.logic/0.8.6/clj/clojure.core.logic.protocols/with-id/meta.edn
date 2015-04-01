@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.protocols", :name "with-id", :file "clojure/core/logic/protocols.clj", :type :fn, :src "(defn with-id [c id]\n  (if (instance? clojure.core.logic.protocols.IWithConstraintId c)\n    (-with-id c id)\n    (vary-meta c assoc ::id id)))", :column 1, :line 162, :arglists ([c id])}

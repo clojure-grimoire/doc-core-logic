@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unifier", :name "init-s", :file "clojure/core/logic/unifier.clj", :type :fn, :src "(defn init-s [opts s]\n  (let [s (reduce (fn [s [k v]] ((== k v) s)) s (:as opts))]\n    (reduce queue-constraints\n      (with-meta s {:reify-vars (fn [v rs] rs)})\n      (:when opts))))", :column 1, :line 102, :arglists ([opts s])}

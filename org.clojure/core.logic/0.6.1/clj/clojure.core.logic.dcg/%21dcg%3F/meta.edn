@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.dcg", :name "!dcg?", :file "clojure/core/logic/dcg.clj", :type :fn, :src "(defn !dcg? [clause]\n  (and (sequential? clause)\n       (let [f (first clause)]\n         (and (symbol? f)\n              (= (name f) \"!dcg\")))))", :column 1, :line 15, :arglists ([clause])}

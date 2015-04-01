@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "lcons?", :file "clojure/core/logic.clj", :type :fn, :src "(defn lcons? [x]\n  (instance? LCons x))", :column 1, :line 447, :arglists ([x])}

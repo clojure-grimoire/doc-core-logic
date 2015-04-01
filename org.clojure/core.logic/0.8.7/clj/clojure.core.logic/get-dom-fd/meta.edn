@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "get-dom-fd", :file "clojure/core/logic.clj", :type :fn, :src "(defn get-dom-fd\n  [a x]\n  (if (lvar? x)\n    (get-dom a x ::fd)\n    x))", :column 1, :line 2177, :arglists ([a x])}

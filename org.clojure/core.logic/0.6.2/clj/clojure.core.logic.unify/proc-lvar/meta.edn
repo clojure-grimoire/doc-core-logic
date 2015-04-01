@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "proc-lvar", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn proc-lvar [lvar-expr store]\n  (let [v (if-let [u (@store lvar-expr)]\n            u\n            (mk/lvar (rem-? lvar-expr)))]\n    (swap! store conj [lvar-expr v])\n    v))", :column 1, :line 12, :arglists ([lvar-expr store])}

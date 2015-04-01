@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "composeg*", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro composeg*\n  ([g0] g0)\n  ([g0 & gs]\n     `(composeg\n       ~g0\n       (composeg* ~@gs))))", :column 1, :line 1036, :macro true, :arglists ([g0] [g0 & gs])}

@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IUnifyWithMap\n  (unify-with-map [v u s]))", :doc nil, :ns "clojure.core.logic", :name "IUnifyWithMap", :file "clojure/core/logic.clj", :column 1, :line 27}

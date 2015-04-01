@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unifier", :name "queue-constraints", :file "clojure/core/logic/unifier.clj", :type :fn, :src "(defn queue-constraints [s [vs cs]]\n  (let [cs (if-not (sequential? cs) [cs] cs)]\n    (reduce (fn [s c] (queue-constraint s c vs)) s cs)))", :column 1, :line 88, :arglists ([s [vs cs]])}

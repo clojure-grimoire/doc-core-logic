@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "subst?", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn subst? [x]\n  (instance? Substitutions x))", :column 1, :line 224, :arglists ([x])}

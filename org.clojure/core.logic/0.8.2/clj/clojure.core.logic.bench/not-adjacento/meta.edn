@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "not-adjacento", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn not-adjacento [x y]\n  (fresh [f]\n    (fd/in f (fd/interval 1 5))\n    (conde\n      [(fd/+ x f y) (fd/< 1 f)]\n      [(fd/+ y f x) (fd/< 1 f)])))", :column 1, :line 405, :arglists ([x y])}

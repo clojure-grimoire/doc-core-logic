@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "unifier*", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn unifier* [u w]\n  \"Unify the terms u and w.\"\n  (first\n    (mk/run* [q]\n      (mk/== u w)\n      (mk/== u q))))", :column 1, :line 60, :arglists ([u w])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.tabled", :name "master", :file "clojure/core/logic/tabled.clj", :type :fn, :src "(defn master [argv cache]\n  (fn [a]\n    (when (every? (fn [ansv]\n                    (not (alpha-equiv? a argv ansv)))\n                  @cache)\n      (do (swap! cache conj (reify-tabled a argv))\n          a))))", :column 1, :line 132, :arglists ([argv cache])}

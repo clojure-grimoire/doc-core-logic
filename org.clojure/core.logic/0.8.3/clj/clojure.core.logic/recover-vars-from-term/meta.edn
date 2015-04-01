@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "recover-vars-from-term", :file "clojure/core/logic.clj", :type :fn, :src "(defn recover-vars-from-term [x]\n  (let [r (atom #{})]\n    (walk-term x\n      (fn [x]\n        (if (lvar? x)\n          (do (swap! r conj x) x)\n          x)))\n    @r))", :column 1, :line 2461, :arglists ([x])}

@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic", :name "lvar-sym?", :file "cljs/core/logic.clj", :type :fn, :src "(defn lvar-sym? [s]\n  (and (symbol? s)\n       (not= s '.)\n       (not (contains? *locals* s))))", :column 1, :line 267, :arglists ([s])}

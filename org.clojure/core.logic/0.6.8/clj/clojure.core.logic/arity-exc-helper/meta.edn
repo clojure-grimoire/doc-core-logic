@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "arity-exc-helper", :file "clojure/core/logic.clj", :type :fn, :src "(def-arity-exc-helper)", :column 1, :line 1450, :arglists ([name n])}

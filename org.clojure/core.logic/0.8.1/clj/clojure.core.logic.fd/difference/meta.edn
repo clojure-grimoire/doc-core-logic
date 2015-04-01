@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "clojure.core.logic.fd", :doc nil, :arglists ([this that]), :name "difference"}

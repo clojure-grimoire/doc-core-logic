@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "retraction", :file "clojure/core/logic.clj", :type :fn, :src "(defn retraction\n  \"Remove a fact from a relation defined with defrel.\"\n  [rel & tuple]\n  (retractions rel [(vec tuple)]))", :column 1, :line 1671, :arglists ([rel & tuple]), :doc "Remove a fact from a relation defined with defrel."}

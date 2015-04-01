@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "run-nc", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro run-nc [& [n & goals]]\n  \"Executes goals until a maximum of n results are found. Does not occurs-check.\"\n  `(binding [*occurs-check* false]\n     (run ~n ~@goals)))", :column 1, :line 957, :macro true, :arglists ([& [n & goals]])}

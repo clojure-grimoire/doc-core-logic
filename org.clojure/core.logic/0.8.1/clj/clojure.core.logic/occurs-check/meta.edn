@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "occurs-check", :file "clojure/core/logic.clj", :type :fn, :src "(defn occurs-check [s u v]\n  (let [v (walk s v)]\n    (occurs-check-term v u s)))", :column 1, :line 201, :arglists ([s u v])}

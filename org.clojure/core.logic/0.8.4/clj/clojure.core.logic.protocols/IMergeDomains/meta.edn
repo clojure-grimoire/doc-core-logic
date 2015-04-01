@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IMergeDomains\n  (-merge-doms [a b]))", :doc nil, :ns "clojure.core.logic.protocols", :name "IMergeDomains", :file "clojure/core/logic/protocols.clj", :column 1, :line 192}

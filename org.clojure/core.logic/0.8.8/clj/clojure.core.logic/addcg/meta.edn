@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "addcg", :file "clojure/core/logic.clj", :type :fn, :src "(defn addcg [c]\n  (fn [a]\n    (let [a  (reduce\n               (fn [a x]\n                 (ext-no-check a x (subst-val ::unbound)))\n               a (unbound-rands a c))\n          cs (addc (:cs a) a c)]\n      (when cs (assoc a :cs cs)))))", :column 1, :line 2015, :arglists ([c])}

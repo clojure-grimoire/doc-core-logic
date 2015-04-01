@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "nonlvaro", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro nonlvaro\n  \"Goal to test whether a logic var is ground. Non-relational.\"\n  [v]\n  `(fn [a#]\n     (if (not (lvar? (walk a# ~v)))\n       a# nil)))", :column 1, :line 1389, :macro true, :arglists ([v]), :doc "Goal to test whether a logic var is ground. Non-relational."}

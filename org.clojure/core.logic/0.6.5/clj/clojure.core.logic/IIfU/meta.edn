@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IIfU\n  (ifu [b gs c]))", :doc nil, :ns "clojure.core.logic", :name "IIfU", :file "clojure/core/logic.clj", :column 1, :line 1127}

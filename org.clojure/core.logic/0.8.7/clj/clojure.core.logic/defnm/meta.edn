@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "defnm", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro defnm [t n & rest]\n  (let [[n [as & cs]] (name-with-attributes n rest)\n        e (if (-> n meta :tabled)\n            `(fnm ~t ~as :tabled ~@cs)\n            `(fnm ~t ~as ~@cs))]\n    `(def ~n ~e)))", :column 1, :line 1611, :macro true, :arglists ([t n & rest])}

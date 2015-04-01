@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "unbound-rands", :file "clojure/core/logic.clj", :type :fn, :src "(defn unbound-rands [a c]\n  (->> (var-rands a c)\n    (filter #(lvar? (root-val a %)))))", :column 1, :line 97, :arglists ([a c])}

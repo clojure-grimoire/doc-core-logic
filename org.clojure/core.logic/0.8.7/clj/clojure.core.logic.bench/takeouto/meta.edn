@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "takeouto", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defne takeouto [x l y]\n  ([_ [x . y] _])\n  ([_ [h . t] [h . r]] (takeouto x t r)))", :column 1, :line 280}

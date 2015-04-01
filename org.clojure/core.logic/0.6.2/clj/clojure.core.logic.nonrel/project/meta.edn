@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nonrel", :name "project", :file "clojure/core/logic/nonrel.clj", :type :macro, :src "(defmacro project [[& vars] & goals]\n  (let [a (gensym \"a\")]\n    `(fn [~a]\n       (let [~@(project-bindings vars a)]\n         ((exist []\n            ~@goals) ~a)))))", :column 1, :line 17, :macro true, :arglists ([[& vars] & goals])}

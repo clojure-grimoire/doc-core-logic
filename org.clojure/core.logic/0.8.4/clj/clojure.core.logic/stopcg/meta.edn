@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "stopcg", :file "clojure/core/logic.clj", :type :fn, :src "(defn stopcg [c]\n  (fn [a]\n    (assoc a :cs (runc (:cs a) c false))))", :column 1, :line 2209, :arglists ([c])}

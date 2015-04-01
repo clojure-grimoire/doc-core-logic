@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "sort-by-member-count", :file "clojure/core/logic.clj", :type :fn, :src "(defn sort-by-member-count [a]\n  (fn [x y]\n    (let-dom a [x dx y dy]\n      (< (member-count dx) (member-count dy)))))", :column 1, :line 2320, :arglists ([a])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "nrevo", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defne nrevo [l o]\n  ([() ()])\n  ([[a . d] _]\n     (fresh [r]\n       (nrevo d r)\n       (appendo r [a] o))))", :column 1, :line 35, :arglists ([l o])}

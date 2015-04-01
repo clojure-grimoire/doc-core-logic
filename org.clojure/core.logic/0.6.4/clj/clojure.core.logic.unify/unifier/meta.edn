@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "unifier", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn unifier [u w]\n  \"Unify the terms u and w. Will prep the terms.\"\n  {:pre [(not (mk/lcons? u))\n         (not (mk/lcons? w))]}\n  (let [up (prep u)\n        wp (prep w)]\n    (unifier* up wp)))", :column 1, :line 78, :arglists ([u w])}

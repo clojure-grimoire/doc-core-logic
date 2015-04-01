@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "fact", :file "clojure/core/logic.clj", :type :fn, :src "(defn fact [rel & tuple]\n  \"Add a fact to a relation defined with defrel.\"\n  (facts rel [(vec tuple)]))", :column 1, :line 1576, :arglists ([rel & tuple])}

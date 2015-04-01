@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nominal", :name "hash", :file "clojure/core/logic/nominal.clj", :type :fn, :src "(defn hash [a t]\n  (cgoal (-hash a t)))", :column 1, :line 187, :arglists ([a t])}

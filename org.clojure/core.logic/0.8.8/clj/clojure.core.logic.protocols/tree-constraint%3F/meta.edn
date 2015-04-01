@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.protocols", :name "tree-constraint?", :file "clojure/core/logic/protocols.clj", :type :fn, :src "(defn tree-constraint? [x]\n  (instance? clojure.core.logic.protocols.ITreeConstraint x))", :column 1, :line 212, :arglists ([x])}

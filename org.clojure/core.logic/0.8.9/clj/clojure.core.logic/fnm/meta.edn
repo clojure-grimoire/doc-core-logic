@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "fnm", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro fnm\n   {:arglists '([t as tabled? & cs])}\n   [t as & cs]\n  (if-let [cs (and (= (first cs) :tabled) (rest cs))]\n    `(-fnm tabled ~t ~as ~@cs)\n    `(-fnm fn ~t ~as ~@cs)))", :column 1, :line 1611, :macro true, :arglists ([t as tabled? & cs])}

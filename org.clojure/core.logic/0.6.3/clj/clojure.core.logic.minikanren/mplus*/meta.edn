@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "mplus*", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro mplus*\n  ([e] e)\n  ([e & e-rest]\n     `(mplus ~e (fn [] (mplus* ~@e-rest)))))", :column 1, :line 827, :macro true, :arglists ([e] [e & e-rest])}

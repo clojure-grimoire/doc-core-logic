@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "lcons-p?", :file "cljs/core/logic/macros.clj", :type :fn, :src "(defn lcons-p? [p]\n  (and (coll? p)\n       (not (nil? (some '#{.} p)))))", :column 1, :line 233, :arglists ([p])}

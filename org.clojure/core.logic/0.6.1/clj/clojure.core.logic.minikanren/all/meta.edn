@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "all", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro all\n  ([] `clojure.core.logic.minikanren/s#)\n  ([& g-rest] `(fn [a#] (bind* a# ~@g-rest))))", :column 1, :line 964, :macro true, :arglists ([] [& g-rest])}

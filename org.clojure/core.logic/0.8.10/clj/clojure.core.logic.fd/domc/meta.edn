@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "domc", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn domc [x]\n  (cgoal (-domc x)))", :column 1, :line 718, :arglists ([x])}

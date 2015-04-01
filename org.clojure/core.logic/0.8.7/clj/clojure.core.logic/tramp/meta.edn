@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "tramp", :file "clojure/core/logic.clj", :type :fn, :src "(defn tramp [f]\n  (loop [f f]\n    (if (fn? f)\n      (recur (f))\n      f)))", :column 1, :line 2634, :arglists ([f])}

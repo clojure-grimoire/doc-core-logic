@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "nilo", :file "clojure/core/logic.clj", :type :fn, :src "(defn nilo\n  \"A relation where a is nil\"\n  [a]\n  (== nil a))", :column 1, :line 1610, :arglists ([a]), :doc "A relation where a is nil"}

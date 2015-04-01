@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "defna", :file "clojure/core/logic/prelude.clj", :type :macro, :src "(defmacro defna [& rest]\n  \"Define a soft cut goal. See conda.\"\n  (apply match/defnm 'clojure.core.logic.nonrel/conda rest))", :column 1, :line 54, :macro true, :arglists ([& rest])}

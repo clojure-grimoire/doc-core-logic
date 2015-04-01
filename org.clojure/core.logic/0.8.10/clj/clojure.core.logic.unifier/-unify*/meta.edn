@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unifier", :name "-unify*", :file "clojure/core/logic/unifier.clj", :type :fn, :src "(defn -unify* [init-s u w]\n  (first\n    (take*\n      (fn []\n        ((fresh [q]\n           (== u w) (== q u)\n           (fn [a]\n             (fix-constraints a))\n           (reifyg q))\n         init-s)))))", :column 1, :line 91, :arglists ([init-s u w])}

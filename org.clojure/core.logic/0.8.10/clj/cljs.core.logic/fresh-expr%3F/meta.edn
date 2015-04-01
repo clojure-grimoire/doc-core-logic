@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic", :name "fresh-expr?", :file "cljs/core/logic.clj", :type :fn, :src "(defn fresh-expr? [cs]\n  (= (first cs) `fresh))", :column 1, :line 282, :arglists ([cs])}

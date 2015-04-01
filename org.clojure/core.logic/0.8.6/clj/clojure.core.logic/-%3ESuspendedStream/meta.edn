@@ -1,0 +1,1 @@
+{:type :fn, :src "(defrecord SuspendedStream [cache ansv* f]\n  ISuspendedStream\n  (ready? [this]\n    (not (identical? (:ansl @cache) ansv*))))", :ns "clojure.core.logic", :name "->SuspendedStream", :file "clojure/core/logic.clj", :column 1, :line 1814, :arglists ([cache ansv* f]), :doc "Positional factory function for class clojure.core.logic.SuspendedStream."}

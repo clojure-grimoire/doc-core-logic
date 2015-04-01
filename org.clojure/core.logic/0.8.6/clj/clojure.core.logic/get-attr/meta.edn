@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "get-attr", :file "clojure/core/logic.clj", :type :fn, :src "(defn get-attr [s x attr]\n  (let [v (root-val s x)]\n    (if (subst-val? v)\n      (-> v meta attr))))", :column 1, :line 437, :arglists ([s x attr])}

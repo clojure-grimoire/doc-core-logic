@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "to-s", :file "clojure/core/logic.clj", :type :fn, :src "(defn to-s [v]\n  (let [s (reduce (fn [m [k v]] (assoc m k v)) {} v)]\n    (make-s s (make-cs))))", :column 1, :line 530, :arglists ([v])}

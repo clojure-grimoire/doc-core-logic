@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "build-term", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(declare build-term)", :column 1, :line 113, :declared true}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "let-dom", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro let-dom\n  [a vars & body]\n  (let [get-var-dom (fn [a [v b]]\n                      `(~b (get-dom-fd ~a ~v)))]\n   `(let [~@(mapcat (partial get-var-dom a) (partition 2 vars))]\n      ~@body)))", :column 1, :line 2176, :macro true, :arglists ([a vars & body])}

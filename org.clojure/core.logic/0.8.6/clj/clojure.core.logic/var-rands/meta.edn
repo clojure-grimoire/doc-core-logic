@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "var-rands", :file "clojure/core/logic.clj", :type :fn, :src "(defn var-rands [a c]\n  (->> (-rands c)\n    (map #(root-var a %))\n    (filter lvar?)\n    (into [])))", :column 1, :line 84, :arglists ([a c])}

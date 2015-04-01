@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "binding-map", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn binding-map [u w]\n  {:pre [(not (mk/lcons? u))\n         (not (mk/lcons? w))]}\n  (let [up (prep u)\n        wp (prep w)]\n    (binding-map* up wp)))", :column 1, :line 80, :arglists ([u w])}

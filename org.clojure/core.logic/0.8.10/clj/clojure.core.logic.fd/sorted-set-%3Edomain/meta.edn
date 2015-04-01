@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "sorted-set->domain", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn sorted-set->domain [s]\n  (let [c (count s)]\n    (cond\n     (zero? c) nil\n     (= c 1) (first s)\n     :else (FiniteDomain. s (first s) (first (rseq s))))))", :column 1, :line 148, :arglists ([s])}

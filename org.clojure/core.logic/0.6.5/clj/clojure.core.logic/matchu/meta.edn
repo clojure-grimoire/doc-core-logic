@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "matchu", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro matchu [xs & cs]\n  \"Define a committed choice goal. See condu.\"\n  (handle-clauses `condu xs cs))", :column 1, :line 1399, :macro true, :arglists ([xs & cs])}

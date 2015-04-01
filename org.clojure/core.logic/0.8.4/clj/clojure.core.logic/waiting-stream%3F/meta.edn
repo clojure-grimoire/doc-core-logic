@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "waiting-stream?", :file "clojure/core/logic.clj", :type :fn, :src "(defn waiting-stream? [x]\n  (vector? x))", :column 1, :line 2014, :arglists ([x])}

@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IInterval\n  (lb [this])\n  (ub [this]))", :doc nil, :ns "clojure.core.logic.fd", :name "IInterval", :file "clojure/core/logic/fd.clj", :column 1, :line 16}

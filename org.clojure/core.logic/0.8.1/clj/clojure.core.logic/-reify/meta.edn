@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "-reify", :file "clojure/core/logic.clj", :type :fn, :src "(defn -reify\n  ([s v]\n     (let [v (walk* s v)]\n       (walk* (-reify* (with-meta empty-s (meta s)) v) v)))\n  ([s v r]\n     (let [v (walk* s v)]\n       (walk* (-reify* r v) v))))", :column 1, :line 248, :arglists ([s v] [s v r])}

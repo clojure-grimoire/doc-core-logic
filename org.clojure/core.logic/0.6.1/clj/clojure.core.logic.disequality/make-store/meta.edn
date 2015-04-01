@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.disequality", :name "make-store", :file "clojure/core/logic/disequality.clj", :type :fn, :src "(defn ^ConstraintStore make-store []\n  (ConstraintStore. {} {} nil))", :column 1, :line 238, :tag clojure.core.logic.disequality.ConstraintStore, :arglists ([])}

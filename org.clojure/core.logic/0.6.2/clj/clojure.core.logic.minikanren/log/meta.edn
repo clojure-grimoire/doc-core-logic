@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "log", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro log [s]\n  `(fn [a#]\n     (println ~s)\n     a#))", :column 1, :line 972, :macro true, :arglists ([s])}

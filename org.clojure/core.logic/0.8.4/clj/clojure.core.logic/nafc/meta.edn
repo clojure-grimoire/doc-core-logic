@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "nafc", :file "clojure/core/logic.clj", :type :fn, :src "(defn nafc [c & args]\n  (cgoal (-nafc c args)))", :column 1, :line 2838, :arglists ([c & args])}

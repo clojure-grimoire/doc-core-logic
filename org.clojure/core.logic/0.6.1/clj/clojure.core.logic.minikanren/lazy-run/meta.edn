@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "lazy-run", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro lazy-run [& [n & rest]]\n  `(solve ~n ~@rest))", :column 1, :line 955, :macro true, :arglists ([& [n & rest]])}

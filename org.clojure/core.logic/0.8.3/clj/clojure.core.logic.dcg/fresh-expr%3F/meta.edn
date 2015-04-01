@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.dcg", :name "fresh-expr?", :file "clojure/core/logic/dcg.clj", :type :fn, :src "(defn fresh-expr? [clause]\n  (and (seq? clause)\n       (let [f (first clause)]\n         (and (symbol? f)\n              (= (name f) \"fresh\")))))", :column 1, :line 29, :arglists ([clause])}

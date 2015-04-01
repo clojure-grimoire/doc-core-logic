@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "resolve-storable-dom", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn resolve-storable-dom\n  [a x dom]\n  (if (singleton-dom? dom)\n    (let [xv (walk a x)]\n      (if (lvar? xv)\n        (ext-run-cs (rem-dom a x ::l/fd) x dom)\n        a))\n    (ext-dom-fd a x dom)))", :column 1, :line 627, :arglists ([a x dom])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nominal", :name "tie", :file "clojure/core/logic/nominal.clj", :type :fn, :src "(defn tie [binding-nom body]\n  (Tie. binding-nom body))", :column 1, :line 309, :arglists ([binding-nom body])}

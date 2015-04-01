@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "cond-clauses", :file "cljs/core/logic/macros.clj", :type :fn, :src "(defn cond-clauses [a]\n  (fn [goals]\n    `((~(first goals) ~a) ~@(rest goals))))", :column 1, :line 210, :arglists ([a])}

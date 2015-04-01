@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol ISuspendedStream\n  (ready? [this]))", :doc nil, :ns "clojure.core.logic.tabled", :name "ISuspendedStream", :file "clojure/core/logic/tabled.clj", :column 1, :line 15}

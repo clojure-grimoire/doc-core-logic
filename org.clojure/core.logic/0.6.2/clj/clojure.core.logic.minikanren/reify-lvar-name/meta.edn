@@ -1,0 +1,1 @@
+{:type :fn, :src nil, :ns "clojure.core.logic.minikanren", :doc nil, :arglists ([_]), :name "reify-lvar-name"}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "to-stream", :file "clojure/core/logic.clj", :type :fn, :src "(defn to-stream [aseq]\n  (let [aseq (drop-while nil? aseq)]\n    (when (seq aseq)\n      (choice (first aseq)\n              (fn [] (to-stream (next aseq)))))))", :column 1, :line 1794, :arglists ([aseq])}

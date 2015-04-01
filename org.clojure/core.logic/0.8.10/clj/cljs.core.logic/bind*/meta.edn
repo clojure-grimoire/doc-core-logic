@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic", :name "bind*", :file "cljs/core/logic.clj", :type :macro, :src "(defmacro bind*\n  ([a g] `(cljs.core.logic/-bind ~(vary-meta a {:tag 'not-native}) ~g))\n  ([a g & g-rest]\n     `(bind* (cljs.core.logic/-bind ~(vary-meta a {:tag 'not-native}) ~g) ~@g-rest)))", :column 1, :line 27, :macro true, :arglists ([a g] [a g & g-rest])}

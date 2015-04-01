@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "db", :file "clojure/core/logic/pldb.clj", :type :fn, :src "(defn db [& facts]\n  (apply db-facts empty-db facts))", :column 1, :line 125, :arglists ([& facts])}

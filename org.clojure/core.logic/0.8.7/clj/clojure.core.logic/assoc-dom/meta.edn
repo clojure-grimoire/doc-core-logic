@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "assoc-dom", :file "clojure/core/logic.clj", :type :fn, :src "(defn assoc-dom [x k v]\n  (assoc x :doms (assoc (:doms x) k v)))", :column 1, :line 24, :arglists ([x k v])}

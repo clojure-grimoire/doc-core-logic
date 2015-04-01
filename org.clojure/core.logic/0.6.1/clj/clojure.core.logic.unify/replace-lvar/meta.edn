@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.unify", :name "replace-lvar", :file "clojure/core/logic/unify.clj", :type :fn, :src "(defn replace-lvar [store]\n  (fn [expr]\n    (if (lvarq-sym? expr)\n      (proc-lvar expr store)\n      (if (lcons-expr? expr)\n        (prep* expr store)\n        expr))))", :column 1, :line 24, :arglists ([store])}

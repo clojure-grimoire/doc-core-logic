@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "quot", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn quot [u v w]\n  (* v w u))", :column 1, :line 980, :arglists ([u v w])}

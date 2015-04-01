@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "resto", :file "clojure/core/logic.clj", :type :fn, :src "(defn resto\n  \"A relation where l is a collection, such that d is the rest of l\"\n  [l d]\n  (fresh [a]\n    (== (lcons a d) l)))", :column 1, :line 1643, :arglists ([l d]), :doc "A relation where l is a collection, such that d is the rest of l"}

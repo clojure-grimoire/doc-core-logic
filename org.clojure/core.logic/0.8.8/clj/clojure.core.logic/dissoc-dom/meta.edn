@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "dissoc-dom", :file "clojure/core/logic.clj", :type :fn, :src "(defn dissoc-dom [x k]\n  (assoc x :doms (dissoc (:doms x) k)))", :column 1, :line 33, :arglists ([x k])}

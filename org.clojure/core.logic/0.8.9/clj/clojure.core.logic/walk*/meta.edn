@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "walk*", :file "clojure/core/logic.clj", :type :fn, :src "(defn walk* [s v]\n  (let [v (walk s v)]\n    (walk-term v\n      (fn [x]\n        (let [x (walk s x)]\n         (if (tree-term? x)\n           (walk* s x)\n           x))))))", :column 1, :line 227, :arglists ([s v])}

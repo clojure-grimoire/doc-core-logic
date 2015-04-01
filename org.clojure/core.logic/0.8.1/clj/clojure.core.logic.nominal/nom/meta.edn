@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.nominal", :name "nom", :file "clojure/core/logic/nominal.clj", :type :fn, :src "(defn nom [lvar]\n  (Nom. lvar))", :column 1, :line 107, :arglists ([lvar])}

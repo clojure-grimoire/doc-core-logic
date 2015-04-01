@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "fresh", :file "clojure/core/logic.clj", :type :macro, :src "(defmacro fresh [[& lvars] & goals]\n  \"Creates fresh variables. Goals occuring within form a logical \n  conjunction.\"\n  `(fn [a#]\n     (-inc\n      (let [~@(lvar-binds lvars)]\n        (bind* a# ~@goals)))))", :column 1, :line 931, :macro true, :arglists ([[& lvars] & goals])}

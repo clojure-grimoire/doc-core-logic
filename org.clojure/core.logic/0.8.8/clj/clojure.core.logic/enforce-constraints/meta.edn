@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "enforce-constraints", :file "clojure/core/logic.clj", :type :fn, :src "(defn enforce-constraints [x]\n  (all\n   (force-ans x)\n   (fn [a]\n     (let [constrained (enforceable-constrained a)]\n       (verify-all-bound a constrained)\n       ((onceo (force-ans constrained)) a)))))", :column 1, :line 2135, :arglists ([x])}

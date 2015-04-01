@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "unbound", :file "clojure/core/logic/minikanren.clj", :type :var, :src "(def ^Unbound unbound (Unbound.))", :column 1, :line 55, :tag clojure.core.logic.minikanren.Unbound}

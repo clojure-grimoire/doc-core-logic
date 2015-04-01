@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "run-constraints", :file "clojure/core/logic.clj", :type :fn, :src "(defn run-constraints [xcs]\n  (fn [a]\n    (let [cq (:cq a)\n          a  (reduce (fn [a c]\n                       (queue a c))\n               (assoc a :cq (or cq [])) xcs)]\n     (if cq\n       a\n       (fix-constraints a)))))", :column 1, :line 2257, :arglists ([xcs])}

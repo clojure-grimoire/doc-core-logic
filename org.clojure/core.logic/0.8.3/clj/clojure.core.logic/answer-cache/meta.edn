@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "answer-cache", :file "clojure/core/logic.clj", :type :fn, :src "(defn answer-cache [] (AnswerCache. () #{} nil))", :column 1, :line 1956, :arglists ([])}

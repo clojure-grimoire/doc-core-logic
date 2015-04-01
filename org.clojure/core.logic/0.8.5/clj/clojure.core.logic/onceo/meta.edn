@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "onceo", :file "clojure/core/logic.clj", :type :fn, :src "(defn onceo [g] (condu (g)))", :column 1, :line 1395, :arglists ([g])}

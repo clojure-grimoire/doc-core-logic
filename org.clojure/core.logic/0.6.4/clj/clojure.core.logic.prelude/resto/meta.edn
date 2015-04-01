@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "resto", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn resto [l d]\n  \"rest as a relation.\"\n  (fresh [a]\n    (== (lcons a d) l)))", :column 1, :line 30, :arglists ([l d])}

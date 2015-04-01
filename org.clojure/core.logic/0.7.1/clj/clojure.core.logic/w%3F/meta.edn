@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "w?", :file "clojure/core/logic.clj", :type :fn, :src "(defn w? [x]\n  (vector? x))", :column 1, :line 1703, :arglists ([x])}

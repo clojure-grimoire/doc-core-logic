@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "moveo", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defne moveo [n x y z]\n  ([1 _ _ _]\n     (trace-lvars \"Move top disk from \" x)\n     (trace-lvars \" to \" y))\n  ([_ _ _ _]\n     (pred n #(> % 1))\n     (fresh [m _] (is m n dec)\n       (moveo m x z y) (moveo 1 x y _) (moveo m z y x))))", :column 1, :line 372}

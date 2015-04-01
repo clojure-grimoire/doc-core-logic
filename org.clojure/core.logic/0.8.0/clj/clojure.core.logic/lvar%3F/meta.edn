@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "lvar?", :file "clojure/core/logic.clj", :type :fn, :src "(defn lvar? [x]\n  (instance? IVar x))", :column 1, :line 692, :arglists ([x])}

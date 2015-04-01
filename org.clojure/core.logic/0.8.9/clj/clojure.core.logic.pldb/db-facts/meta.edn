@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.pldb", :name "db-facts", :file "clojure/core/logic/pldb.clj", :type :fn, :src "(defn db-facts [base-db & facts]\n  (reduce #(apply db-fact %1 %2) base-db facts))", :column 1, :line 122, :arglists ([base-db & facts])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "digito", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn digito [x l y]\n  (takeouto x l y))", :column 1, :line 270, :arglists ([x l y])}

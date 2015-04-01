@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "bind-conde-clause", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(defn bind-conde-clause [a]\n  (fn [g-rest]\n    `(bind* ~a ~@g-rest)))", :column 1, :line 906, :arglists ([a])}

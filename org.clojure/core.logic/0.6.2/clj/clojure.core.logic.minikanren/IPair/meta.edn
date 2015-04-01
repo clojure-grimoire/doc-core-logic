@@ -1,0 +1,1 @@
+{:type :var, :src "(defprotocol IPair\n  (lhs [this])\n  (rhs [this]))", :doc nil, :ns "clojure.core.logic.minikanren", :name "IPair", :file "clojure/core/logic/minikanren.clj", :column 1, :line 58}

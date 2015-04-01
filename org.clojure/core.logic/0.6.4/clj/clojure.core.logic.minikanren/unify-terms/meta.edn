@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "unify-terms", :file "clojure/core/logic/minikanren.clj", :type :fn, :src "(declare unify-terms)", :column 1, :line 109, :declared true}

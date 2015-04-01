@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.disequality", :name "make-c", :file "clojure/core/logic/disequality.clj", :type :fn, :src "(defn ^Constraint make-c [m]\n  (let [name (str \"constraint-\" (. clojure.lang.RT (nextID)))]\n    (Constraint. name m (keys m) (.hashCode name))))", :column 1, :line 128, :tag clojure.core.logic.disequality.Constraint, :arglists ([m])}

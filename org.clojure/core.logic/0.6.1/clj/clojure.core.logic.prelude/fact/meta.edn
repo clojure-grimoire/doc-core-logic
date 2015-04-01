@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "fact", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn fact [rel & tuple]\n  (facts rel [(vec tuple)]))", :column 1, :line 222, :arglists ([rel & tuple])}

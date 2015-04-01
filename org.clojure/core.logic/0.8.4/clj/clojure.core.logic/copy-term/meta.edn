@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "copy-term", :file "clojure/core/logic.clj", :type :fn, :src "(defn copy-term\n  \"Copies a term u into v. Non-relational.\"\n  [u v]\n  (project [u]\n    (== (walk* (build empty-s u) u) v)))", :column 1, :line 1380, :arglists ([u v]), :doc "Copies a term u into v. Non-relational."}

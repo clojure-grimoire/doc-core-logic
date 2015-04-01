@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.pldb", :name "with-dbs", :file "cljs/core/logic/pldb.clj", :type :macro, :src "(defmacro with-dbs [dbs & body]\n  `(binding [cljs.core.logic/*logic-dbs* (concat cljs.core.logic/*logic-dbs* ~dbs)]\n     ~@body))", :column 1, :line 6, :macro true, :arglists ([dbs & body])}

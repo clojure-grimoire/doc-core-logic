@@ -1,0 +1,1 @@
+{:ns "cljs.core.logic.macros", :name "matchu", :file "cljs/core/logic/macros.clj", :type :macro, :src "(defmacro matchu\n  \"Define a committed choice goal. See condu.\"\n  [xs & cs]\n  (binding [*locals* (env-locals xs (keys &env))]\n    (handle-clauses `condu xs cs)))", :column 1, :line 405, :macro true, :arglists ([xs & cs]), :doc "Define a committed choice goal. See condu."}

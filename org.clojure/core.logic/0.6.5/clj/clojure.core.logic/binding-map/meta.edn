@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "binding-map", :file "clojure/core/logic.clj", :type :fn, :src "(defn binding-map [u w]\n  \"Return the binding map that unifies terms u and w.\n  Will prep the terms.\"\n  {:pre [(not (lcons? u))\n         (not (lcons? w))]}\n  (let [up (prep u)\n        wp (prep w)]\n    (binding-map* up wp)))", :column 1, :line 1086, :arglists ([u w])}

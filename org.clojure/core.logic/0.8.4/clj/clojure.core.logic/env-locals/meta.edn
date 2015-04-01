@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "env-locals", :file "clojure/core/logic.clj", :type :fn, :src "(defn env-locals [& syms]\n  (disj (set (apply concat syms)) '_))", :column 1, :line 1566, :arglists ([& syms])}

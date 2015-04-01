@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "runcg", :file "clojure/core/logic.clj", :type :fn, :src "(defn runcg [c]\n  (fn [a]\n    (assoc a :cs (runc (:cs a) c true))))", :column 1, :line 2012, :arglists ([c])}

@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "predc", :file "clojure/core/logic.clj", :type :fn, :src "(defn predc\n  ([x p] (predc x p p))\n  ([x p pform]\n     (cgoal (-predc x p pform))))", :column 1, :line 2619, :arglists ([x p] [x p pform])}

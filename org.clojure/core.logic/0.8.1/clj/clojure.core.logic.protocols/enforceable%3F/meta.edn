@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.protocols", :name "enforceable?", :file "clojure/core/logic/protocols.clj", :type :fn, :src "(defn enforceable? [x]\n  (instance? clojure.core.logic.protocols.IEnforceableConstraint x))", :column 1, :line 173, :arglists ([x])}

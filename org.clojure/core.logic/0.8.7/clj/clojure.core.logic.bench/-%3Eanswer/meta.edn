@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "->answer", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn ->answer [ns]\n  (->> (map vector ns [:baker :cooper :fletcher :miller :smith])\n       (sort sort-dwellers)\n       (map second)))", :column 1, :line 439, :arglists ([ns])}

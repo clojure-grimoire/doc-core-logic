@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "finite-domain?", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn finite-domain? [x]\n  (instance? FiniteDomain x))", :column 1, :line 158, :arglists ([x])}

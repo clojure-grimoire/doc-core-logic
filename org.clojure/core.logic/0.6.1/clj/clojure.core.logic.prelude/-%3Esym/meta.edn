@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.prelude", :name "->sym", :file "clojure/core/logic/prelude.clj", :type :fn, :src "(defn ->sym [& args]\n  (symbol (apply str args)))", :column 1, :line 91, :arglists ([& args])}

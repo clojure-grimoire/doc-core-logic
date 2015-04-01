@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.bench", :name "->cols", :file "clojure/core/logic/bench.clj", :type :fn, :src "(defn ->cols [rows]\n  (apply map vector rows))", :column 1, :line 632, :arglists ([rows])}

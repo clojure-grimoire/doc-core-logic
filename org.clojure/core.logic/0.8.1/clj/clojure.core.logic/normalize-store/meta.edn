@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic", :name "normalize-store", :file "clojure/core/logic.clj", :type :var, :src "(declare normalize-store ground-term?)", :column 1, :line 2476, :declared true}

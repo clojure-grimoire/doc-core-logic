@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.minikanren", :name "run-nc", :file "clojure/core/logic/minikanren.clj", :type :macro, :src "(defmacro run-nc [& [n & rest]]\n  `(binding [*occurs-check* false]\n     (run ~n ~@rest)))", :column 1, :line 946, :macro true, :arglists ([& [n & rest]])}

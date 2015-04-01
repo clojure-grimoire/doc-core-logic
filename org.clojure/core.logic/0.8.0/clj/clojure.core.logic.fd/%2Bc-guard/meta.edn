@@ -1,0 +1,1 @@
+{:ns "clojure.core.logic.fd", :name "+c-guard", :file "clojure/core/logic/fd.clj", :type :fn, :src "(defn +c-guard [u v w]\n  (fn [s]\n    (let-dom s [u du v dv w dw]\n      (if (every? singleton-dom? [du dv dw])\n        (when (= (core/+ du dv) dw)\n          s)\n        s))))", :column 1, :line 864, :arglists ([u v w])}
